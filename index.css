@@ -6,13 +6,6 @@
 }
 
 
-/* .yoga{
-    background-image:url("images/one-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-} */
-
 .one{
     background-image: url('images/one-1.jpg');
     height: 100vh;
@@ -70,8 +63,9 @@ h6{
 }
 .green{
     height: 5rem;
-    background-color: greenyellow;
+    background-color: grey;
     border-radius: 50%;
+   
 }
 .fa-people-arrows {
     font-size:2.3rem;
@@ -83,6 +77,14 @@ h6{
     background-size: cover;
   
 }
+/* .carousel{
+    background-color:green;
+    border: none;
+} */
+/* .jus{
+    background-color: transparent;
+    background-color: transparent;
+} */
 
 
 
