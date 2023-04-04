@@ -1,25 +1,36 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
 }
 
-
-.one{
-    background-image: url('images/one-1.jpg');
+.one {
+    background-image: url("images/one-1.jpg");
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.fa-circle-play{
+
+.fa-circle-play {
     font-size: 5rem;
     position: relative;
     top: 15rem;
     left: 1.5rem;
 }
+
+.about {
+    position: relative;
+    top: 12rem;
+}
+/* .small-img{
+    background-image: url(images/pic-9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+} */
 h6{
     height: 5rem;
     width: 5rem;
@@ -70,26 +81,30 @@ h6{
 .fa-people-arrows {
     font-size:2.3rem;
 }
+.fa-people-arrows {
+    font-size:2.3rem;
+}
 .backimg{
     background-image: url(images/pic-4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+ 
   
 }
-/* .carousel{
-    background-color:green;
-    border: none;
-} */
-/* .jus{
-    background-color: transparent;
-    background-color: transparent;
-} */
-.p-x{
-    position: relative;
-    top: 5rem;
+.overlay{
+    background: rgba(14, 140, 5, 0.7);
 }
 
+.small-card{
+    background: transparent;
+    color: white;
+}
 
-
+.contain-bg{
+    background-color:rgba(14, 140, 5, 0.7) ;
+}
+.bgcolor{
+    background-color:rgba(14, 140, 5, 0.7) ;
+}
