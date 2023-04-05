@@ -17,8 +17,9 @@
 .fa-circle-play{
     font-size: 5rem;
     position: relative;
-    top: 15rem;
-    left: 1.5rem;
+    top: 7rem;
+    left: 1rem;
+    
 }
 h6{
     height: 5rem;
@@ -70,13 +71,25 @@ h6{
 .fa-people-arrows {
     font-size:2.3rem;
 }
+
 .backimg{
-    background-image: url(images/pic-4.jpg);
+    background-image: url(images/freegp-1.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+    color: white;
+ 
   
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 140, 5, 0.7);
 }
 /* .carousel{
     background-color:green;
@@ -90,6 +103,14 @@ h6{
     position: relative;
     top: 5rem;
 }
+/* .small-card{
+    background: transparent;
+    color: white;
+} */
+.bgcolor{
+    background-color:#6cae22 ;
+}
+
 
 
 
