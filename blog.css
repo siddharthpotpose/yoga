@@ -7,7 +7,7 @@
 
 
 .one{
-    background-image: url("images/WhatsApp\ Image\ 2023-04-05\ at\ 6.10.16\ PM\ \(1\).jpeg");
+    background-image: url('images/WhatsApp\ Image\ 2023-04-05\ at\ 6.10.16\ PM\ \(1\).jpeg');
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -20,8 +20,13 @@ a{
 .fa-circle-play{
     font-size: 5rem;
     position: relative;
-    top: 15rem;
-    left: 1.5rem;
+    top: 7rem;
+    left: 1rem;
+    
+}
+.about {
+    position: relative;
+    top: 12rem;
 }
 h6{
     height: 5rem;
@@ -29,22 +34,41 @@ h6{
     background-color: rgb(229, 233, 225);
     border-radius: 50%;
 }
+h3{
+    font-weight:bolder;
+    position: relative;
+    top: -2rem;
+}
+.date{
+    position: relative;
+    top: -1rem;
+}
+
+.btn-arrow{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: relative;
+    top: 2.5rem;
+    left: 1rem;
+    color: green;
+}
+.card-text{
+    color: gray;
+}
 .card-title {
     position: relative;
     top: -5rem;
     left: 3.5rem;
     font-size:1.5rem;
 }
-.fa-sun{
+.smallbtn{
+    height: 3rem;
+    width: 10rem;
     position: relative;
-    top:1.5rem;
-    left: 0;
-    font-size:2rem;
-}
- 
-.fa-brain{
-    font-size:4rem;
-    color: rgb(49, 221, 49);
+    top: -1.5rem;
+    left: 2rem;
+   
 }
 .color{
     background-color: rgb(126, 199, 126) ;
@@ -64,10 +88,6 @@ h6{
     color: white;
     
 }
-.about {
-    position: relative;
-    top: 12rem;
-} 
 .green{
     height: 5rem;
     background-color: grey;
@@ -77,14 +97,7 @@ h6{
 .fa-people-arrows {
     font-size:2.3rem;
 }
-.backimg{
-    background-image: url(images/pic-4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  
-}
+
 /* .carousel{
     background-color:green;
     border: none;
@@ -97,6 +110,14 @@ h6{
     position: relative;
     top: 5rem;
 }
+/* .small-card{
+    background: transparent;
+    color: white;
+} */
+.bgcolor{
+    background-color:#6cae22 ;
+}
+
 
 
 

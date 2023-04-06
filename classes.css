@@ -5,14 +5,16 @@
 }
 
 .one {
-    background-image: url("images/one-1.jpg");
+    background-image: url("images/WhatsApp\ Image\ 2023-04-05\ at\ 6.10.16\ PM\ \(1\).jpeg");
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
+a{
+    text-shadow: 1px 1px black;
+}
 .fa-circle-play {
     font-size: 5rem;
     position: relative;
