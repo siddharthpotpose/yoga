@@ -102,6 +102,21 @@ height: 70vh;
 width: 80vw;
 border: 0;
 }
+.bgcolor{
+    background-color:#46c646;
+    /* height: 80vh; */
+}
+.footer-small a{
+    color: #46c646;
+    text-decoration: none;
+}
+.footer-a{
+color: rgb(196, 191, 191);
+text-decoration: none;
 
+}
+.footer-a:hover{
+    color: #46c646;
+}
 
 
