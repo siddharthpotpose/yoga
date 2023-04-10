@@ -48,7 +48,6 @@ h6{
     left: 0;
     font-size:2rem;
 }
- 
 .fa-brain{
     font-size:4rem;
     color: rgb(49, 221, 49);
@@ -56,6 +55,7 @@ h6{
 .color{
     background-color: rgb(126, 199, 126) ;
       height:7rem;
+      width: 8rem;
     background-color:rgb(235, 228, 228);
     border-radius: 50%;
     
@@ -73,24 +73,23 @@ h6{
 }
 .green{
     height: 5rem;
-    background-color: grey;
+    width: 6rem;
+    background-color: white;
     border-radius: 50%;
    
 }
 .fa-people-arrows {
     font-size:2.3rem;
+    color: #46c646;
 }
 
 .backimg{
-    background-image: url(images/freegp-1.avif);
+    background-image: url(images/pic-4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    color: white;
- 
-  
+    position: relative; 
 }
 .overlay{
     position: absolute;
@@ -100,25 +99,33 @@ h6{
     height: 100%;
     background: rgba(14, 140, 5, 0.7);
 }
-/* .carousel{
-    background-color:green;
-    border: none;
-} */
-/* .jus{
-    background-color: transparent;
-    background-color: transparent;
-} */
+
+.small-card{
+    background: transparent;
+    /* color: white; */
+}
+
+.bgcolor{
+    background-color:#46c646;
+    /* height: 80vh; */
+}
+.footer-small a{
+    color: #46c646;
+    text-decoration: none;
+}
+.footer-a{
+color: rgb(196, 191, 191);
+text-decoration: none;
+
+}
+.footer-a:hover{
+    color: #46c646;
+}
 .p-x{
     position: relative;
     top: 5rem;
 }
-/* .small-card{
-    background: transparent;
-    color: white;
-} */
-.bgcolor{
-    background-color:#6cae22 ;
-}
+
 
 
 
