@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- animation  -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body >
@@ -56,7 +58,7 @@
             </div>
           </nav>
         <!-- -------------------------nav close  -->
-        <div class="about">
+        <div class="about" data-aos="fade-up" >
             <a href="" class="fs-4 d-flex justify-content-center text-light" style="text-decoration: none">Home
               > &nbsp;<span>SCHEDULE > </span></a>
             <h1 class="d-flex justify-content-center mt-3 text-light">
@@ -73,7 +75,7 @@
     <section>
       <div class="container-fluid ">
         <div class="container">
-          <div class="row mt-5 mb-5">
+          <div class="row mt-5 mb-5" data-aos="fade-up" >
             <p class="d-flex justify-content-center">Yoga Schedule</p>
             <h1 class="d-flex justify-content-center">YOGABEST SCHEDULE</h1>
           </div>
@@ -93,7 +95,7 @@
     <section>
       <div class="container-fluid">
         <div class="container">
-          <div class="table-responsive col-lg-12 mt-5 mb-5 ">
+          <div class="table-responsive col-lg-12 mt-5 mb-5 " data-aos="fade-up" >
             <table class="table table-stripred ">
             <thead>
                 <tr >
@@ -361,7 +363,7 @@
         <div class="col-md-3  ">
         <a href=""><h2 class="mt-5 d-flex justify-content-center text-light fs-4">Yogabest</h2></a>
         <p class="text-light mt-4 fs-5">Far far away, behind the word mountains, far from the countries.</p>
-        <div class="icons mb-5">
+        <div class="icons mb-5" data-aos="fade-up" >
           <a href=""><i class="fa-brands fa-facebook fs-3 ms-2"></i></a>
           <a href=""><i class="fa-brands fa-instagram fs-3 ms-2"></i></a>
           <a href=""><i class="fa-brands fa-twitter fs-3 ms-2"></i></a>
@@ -457,6 +459,14 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+
+    });
+  </script>
 </body>
 
 </html>

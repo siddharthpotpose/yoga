@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- animation  -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -59,7 +61,7 @@
       </div>
       </nav>
      
-      <div class="about">
+      <div class="about" data-aos="fade-up">
         <a href="" class="fs-4  d-flex justify-content-center text-light" style="text-decoration: none">Home
             > &nbsp;<span>CLASSES > </span></a>
         <h1 class="d-flex justify-content-center mt-3 text-light">
@@ -102,7 +104,7 @@
   <section>
     <div class="container-fluid">
       <div class="container">
-        <div class="row mt-5 mb-5">
+        <div class="row mt-5 mb-5" data-aos="fade-up" >
           <p class="d-flex justify-content-center">Yoga Classes</p>
           <h1 class="d-flex justify-content-center">YOGABEST CLASSES</h1>
         </div>
@@ -114,19 +116,19 @@
   <section>
     <div class="container-fluid bg-light ">
       <div class="container">
-        <div class="row mt-5 mb-5 ">
+        <div class="row mt-5 mb-5 " data-aos="fade-up" >
           <div class="col-md-4  mb-5  ">
             <div class="card" style=" width: 25rem d-flex justify-content-center; ">
               <img src="images/gp-1.jpg" class="card-img-top" alt="..." />
               <div class="card-body bg-danger card-img">
-                <p class="card-text d-flex justify-content-center ">
+                <p class="card-text d-flex justify-content-center " >
                   <a href="" class="text-light">JOE DOE</a>
                   <a href=""><span class="ms-4 text-light">MON,TUE,WED</span></a>
                 </p>
-                <a href="" class=" text-light d-flex justify-content-center">8.00 AM - 9.00 AM</a>
+                <a href="" class=" text-light d-flex justify-content-center" >8.00 AM - 9.00 AM</a>
 
               </div>
-              <div class="card-footer bg-light text-dark ">
+              <div class="card-footer bg-light text-dark " >
                 <h3 class="d-flex justify-content-center "> Private & Group Lessons</h3>
               </div>
             </div>
@@ -164,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div class="row mb-5 mt-2">
+        <div class="row mb-5 mt-2" data-aos="fade-up" >
           <div class="col-md-4 mb-5 ">
             <div class="card" style=" width: 25rem d-flex justify-content-center ">
               <img src="images/gp-4.jpg" class="card-img-top" alt="..." />
@@ -260,7 +262,7 @@
               <h2 class="mt-5 d-flex justify-content-center text-light fs-4">Yogabest</h2>
             </a>
             <p class="text-light mt-4 fs-5">Far far away, behind the word mountains, far from the countries.</p>
-            <div class="icons mb-5">
+            <div class="icons mb-5" data-aos="fade-up" >
               <a href=""><i class="fa-brands fa-facebook fs-3 ms-2"></i></a>
               <a href=""><i class="fa-brands fa-instagram fs-3 ms-2"></i></a>
               <a href=""><i class="fa-brands fa-twitter fs-3 ms-2"></i></a>
@@ -369,7 +371,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
   </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+
+    });
+  </script>
 </body>
 
 </html>
